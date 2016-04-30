@@ -1,0 +1,6 @@
+D:\work\Coding\Acmp\acmp\task202\bin\Debug\task202.exe.config
+D:\work\Coding\Acmp\acmp\task202\obj\Debug\task202.csprojResolveAssemblyReference.cache
+D:\work\Coding\Acmp\acmp\task202\bin\Debug\task202.exe
+D:\work\Coding\Acmp\acmp\task202\bin\Debug\task202.pdb
+D:\work\Coding\Acmp\acmp\task202\obj\Debug\task202.exe
+D:\work\Coding\Acmp\acmp\task202\obj\Debug\task202.pdb
