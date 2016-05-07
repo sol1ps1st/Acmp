@@ -1,6 +1,0 @@
-D:\Coding\Acmp\acmp\task74\bin\Debug\task74.exe.config
-D:\Coding\Acmp\acmp\task74\bin\Debug\task74.exe
-D:\Coding\Acmp\acmp\task74\bin\Debug\task74.pdb
-D:\Coding\Acmp\acmp\task74\obj\Debug\task74.exe
-D:\Coding\Acmp\acmp\task74\obj\Debug\task74.pdb
-D:\Coding\Acmp\acmp\task74\obj\Debug\task74.csprojResolveAssemblyReference.cache
