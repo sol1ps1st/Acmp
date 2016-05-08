@@ -1,7 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Text;
-
 
 namespace task82
 {
@@ -19,14 +17,16 @@ namespace task82
             int[] arN = new int[n];
             for (int i = 0; i < n; ++i)
                 arN[i] = int.Parse(s[i]);
-            s = sr.ReadLine().Split();
+            GC.Collect();
+            string[] s1 = sr.ReadLine().Split();
             sr.Close();
             int[] arM = new int[m];
             for (int i = 0; i < m; ++i)
-                arM[i] = int.Parse(s[i]);
-
-            string res = SetCross(n, m, arN, arM);
-            sw.Write(res);
+                arM[i] = int.Parse(s1[i]);
+            GC.Collect();
+            //string res = SetCross(n, m, arN, arM);
+            //sw.Write(res);
+            SetCross(n, m, arN, arM, sw);
             sw.Close(); 
         }
         //private static string SetCross(int n, int m, int[] arN, int[] arM) //Slow
@@ -50,7 +50,7 @@ namespace task82
         //    }
         //    return res.ToString().TrimEnd();
         //}
-        private static string SetCross(int n, int m, int[] arN, int[] arM) //Fast but use a lot of memory
+        private static void SetCross(int n, int m, int[] arN, int[] arM, StreamWriter sw) //Fast but use a lot of memory
         {
             const int maxCount = 300000;
             int[] a = new int[maxCount];
@@ -58,13 +58,14 @@ namespace task82
             for (i = 0; i < n; ++i) a[arN[i]] = 1;
             for (i = 0; i < m; ++i)
                 if (a[arM[i]] == 1) a[arM[i]] = 2;
-            StringBuilder res = new StringBuilder();
+            //StringBuilder res = new StringBuilder();
             for (i = 0; i < maxCount; ++i)
                 if(a[i] == 2)
                 {
-                    res.Append(i); res.Append(" ");
+                    //res.Append(i); res.Append(" ");
+                    sw.Write(i); sw.Write(" ");
                 }
-            return res.ToString().TrimEnd();
+            //return res.ToString().TrimEnd();
         }
     }
 }

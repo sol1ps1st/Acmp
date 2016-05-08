@@ -33,7 +33,7 @@ namespace task368
         }
     }
 
-    class Path
+    internal class Path
     {
         public Path(int n, int[,] a)
         {
