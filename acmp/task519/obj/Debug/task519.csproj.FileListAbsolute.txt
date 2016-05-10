@@ -1,0 +1,6 @@
+D:\Coding\Acmp\acmp\task519\bin\Debug\task519.exe.config
+D:\Coding\Acmp\acmp\task519\bin\Debug\task519.exe
+D:\Coding\Acmp\acmp\task519\bin\Debug\task519.pdb
+D:\Coding\Acmp\acmp\task519\obj\Debug\task519.csprojResolveAssemblyReference.cache
+D:\Coding\Acmp\acmp\task519\obj\Debug\task519.exe
+D:\Coding\Acmp\acmp\task519\obj\Debug\task519.pdb
