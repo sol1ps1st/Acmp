@@ -1,6 +1,0 @@
-D:\Coding\Acmp\acmp\task415\bin\Debug\task415.exe.config
-D:\Coding\Acmp\acmp\task415\bin\Debug\task415.exe
-D:\Coding\Acmp\acmp\task415\bin\Debug\task415.pdb
-D:\Coding\Acmp\acmp\task415\obj\Debug\task415.exe
-D:\Coding\Acmp\acmp\task415\obj\Debug\task415.pdb
-D:\Coding\Acmp\acmp\task415\obj\Debug\task415.csprojResolveAssemblyReference.cache
