@@ -90,6 +90,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task476", "task476\task476.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task487", "task487\task487.csproj", "{65A9F33D-8313-45E8-B588-97644A7CA100}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task389", "task389\task389.csproj", "{AC5E518D-9374-4BED-B445-C4DC21F90E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -510,6 +512,16 @@ Global
 		{65A9F33D-8313-45E8-B588-97644A7CA100}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{65A9F33D-8313-45E8-B588-97644A7CA100}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{65A9F33D-8313-45E8-B588-97644A7CA100}.Release|Win32.ActiveCfg = Release|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AC5E518D-9374-4BED-B445-C4DC21F90E89}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
